@@ -1,7 +1,14 @@
 aid: blueflite
 name: blueflite
-description: blueflite is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  blueflite is a Techstars-backed unmanned aircraft systems (UAS) company that designs and
+  manufactures autonomous cargo and delivery drones built on its SLATE platform for all-weather,
+  time-sensitive logistics. Its aircraft target last-mile shipping and medical or life-saving
+  delivery (such as defibrillators and emergency supplies), and the company complements the
+  hardware with blueDelivery (a consumer ordering app), blueDigital (a cloud productivity tool),
+  and blueControl, alongside drone consulting, engineering, and project services. blueflite is
+  on the FAA Section 44807 approved UAS list and holds FCC conditional approval, and was founded
+  by Frank Noppel and James McClearen. No public developer or API surface is currently published.
 url: https://raw.githubusercontent.com/api-evangelist/blueflite/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,31 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.blueflite.com/wp-content/uploads/2021/09/footer-logo-1.png
 tags:
 - Company
+- Drones
+- UAS
+- Logistics
+- Delivery
+- Aerospace
+- Autonomous Vehicles
+- Medical Delivery
+- Last-Mile
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/blueflite-domain-security.yml
 - type: Website
   url: https://blueflite.com/
+- type: Blog
+  url: https://www.blueflite.com/blog/
+- type: PrivacyPolicy
+  url: https://www.blueflite.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.blueflite.com/terms-conditions/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
