@@ -51,7 +51,7 @@ tags:
 - Aerospace
 - Autonomous Vehicles
 - Medical Delivery
-- Last Mile
+- Last Mile Delivery
 tags_raw:
 - Company
 - Drones
@@ -62,6 +62,7 @@ tags_raw:
 - Autonomous Vehicles
 - Medical Delivery
 - Last-Mile
+- Last Mile
 apis: []
 maintainers:
 - FN: Kin Lane
